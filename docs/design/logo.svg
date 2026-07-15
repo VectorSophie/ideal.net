@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440">
+  <!-- ideal.net mark: oblique tesseract, ivory cube leading upper-left,
+       teal twin slid down the descending diagonal, corners bound by ghost lines.
+       Palette: ivory #e8e2d0, teal #5da9a1, on dark ash #16161a. -->
+  <g fill="none" stroke-linejoin="miter" stroke-linecap="square">
+    <g stroke="#5da9a1" stroke-width="9">
+      <rect x="136" y="246" width="120" height="120"/>
+      <rect x="184" y="198" width="120" height="120"/>
+      <line x1="136" y1="246" x2="184" y2="198"/>
+      <line x1="256" y1="246" x2="304" y2="198"/>
+      <line x1="256" y1="366" x2="304" y2="318"/>
+      <line x1="136" y1="366" x2="184" y2="318"/>
+    </g>
+    <g stroke="#e8e2d0" stroke-width="4" opacity="0.3">
+      <line x1="70" y1="180" x2="136" y2="246"/>
+      <line x1="190" y1="180" x2="256" y2="246"/>
+      <line x1="190" y1="300" x2="256" y2="366"/>
+      <line x1="70" y1="300" x2="136" y2="366"/>
+      <line x1="118" y1="132" x2="184" y2="198"/>
+      <line x1="238" y1="132" x2="304" y2="198"/>
+      <line x1="238" y1="252" x2="304" y2="318"/>
+      <line x1="118" y1="252" x2="184" y2="318"/>
+    </g>
+    <g stroke="#e8e2d0" stroke-width="9">
+      <rect x="70" y="180" width="120" height="120"/>
+      <rect x="118" y="132" width="120" height="120"/>
+      <line x1="70" y1="180" x2="118" y2="132"/>
+      <line x1="190" y1="180" x2="238" y2="132"/>
+      <line x1="190" y1="300" x2="238" y2="252"/>
+      <line x1="70" y1="300" x2="118" y2="252"/>
+    </g>
+  </g>
+</svg>
