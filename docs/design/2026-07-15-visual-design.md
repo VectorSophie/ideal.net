@@ -6,26 +6,39 @@ per CLAUDE.md, theme never renames internal concepts (`workspace`, `branch`,
 functional guardrail — nothing ranks, scores, or compares the user's own
 workspaces.
 
-## Palette
+## Palette (revised same session — supersedes the ash/ivory/teal draft)
 
-| Role | Color | Hex |
+Core trio, two modes:
+
+| Color | Hex | Dark mode ("ink night") | Light mode ("blueprint on cream") |
+|---|---|---|---|
+| Cosmic latte | `#fff8e7` | text | paper/background (panels `#f6edd6`, wells `#f1e9d2`) |
+| Cornflower blue | `#7682ff` | every live accent: active workspace, tree, verified ✓ | lighter drafting lines, secondary accents |
+| Persian blue | `#1b2cc1` | structure: logo twin cube, sunk panel tints (bg `#0d1027`, panels `#141a45`) | the ink: primary lines, text accents, active elements |
+
+Reserved accents on top of the trio (both modes):
+
+| Color | Hex | Role — exclusive |
 |---|---|---|
-| Background (dark ash) | window/chrome base | `#131317` / panels `#16161a` / wells `#1e1e24` |
-| Text (warm ivory) | primary text, leading cube | `#e8e2d0` |
-| Muted teal | local/private: active workspace, verified signatures | `#5da9a1` |
-| Blue-grey | Tor-routed workspaces, unknown/unverified | `#8a97a8` |
-| Brass | shared/inherited, friends' seats, literary accents, numerals | `#b08d57` |
-| Vermilion | warnings, outgoing data, the publish act | `#e05b3a` |
-| Secondary text | labels, dormant items | `#9a948a` |
+| Vermilion | `#e05b3a` | warnings, outgoing-data counter (`▲ n out`), identity-link alerts. Never decorative. |
+| Brass | `#b08d57` | shared/inherited markers, friends' seats, snapshot numerals, literary accents |
 
-Intensity: between "tinted" and "declarative" — the chrome takes a faint tint
-of the active workspace's nature (teal local / blue-grey Tor / brass inherited),
-accents are visible but not solid-filled, and the vermilion outgoing-data
-counter (`▲ n out`) is always present in the toolbar.
+Dark mode is the A mockup (`full-layout-latte`, ink night): near-black
+persian-tinted panels, cornflower live elements, latte text. Light mode is
+the B mockup (blueprint on cream): latte paper, persian ink, cornflower
+drafting lines — the architect's-drawing reading.
+
+Intensity rule carries over from the first draft: chrome faintly tinted by
+the active workspace's nature, accents visible but not solid-filled, and the
+vermilion outgoing-data counter always present in the toolbar. With the blue
+trio, vermilion is the ONLY hot color in either mode — nothing else may use
+it, so "data leaving" is always unmistakable.
 
 ## Logo — the slid-cube tesseract
 
-`docs/design/logo.svg` (canonical).
+`docs/design/logo.svg` (canonical; drawn in the original ivory/teal — recolor
+per mode: dark = latte cube leading + persian twin; light = persian cube
+leading + cornflower twin).
 
 Construction: oblique/cabinet projection following the wetware.engineering
 hypercube — square front face, 45° receding depth, thick square-capped strokes.
